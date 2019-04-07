@@ -147,7 +147,7 @@ document.body.style.fontSize = "14px";
             }
         }
 
-    //上下拖动时让滚动条出现上下拖动时让滚动条出现
+    //上下拖动时让滚动条出现
     function scrollBarShow(){
     var content = document.querySelector(".wrap .content");
     var wrap = document.querySelector(".wrap");
