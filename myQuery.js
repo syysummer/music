@@ -15,6 +15,7 @@
 
     Init.prototype = {
         //模拟桌面轻触
+        //在dev分支上进行了相应的修改
         tap: function (callBack) {
             var ele = this.ele;
             ele.addEventListener("touchstart", handler);
